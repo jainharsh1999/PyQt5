@@ -6,17 +6,23 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>719</width>
-    <height>507</height>
+    <width>709</width>
+    <height>464</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Microsoft JhengHei Light</family>
+    <pointsize>10</pointsize>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="lb10">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>310</x>
+     <x>330</x>
      <y>110</y>
      <width>141</width>
      <height>31</height>
@@ -31,56 +37,24 @@
     </font>
    </property>
    <property name="text">
-    <string>Register</string>
+    <string>Log In </string>
    </property>
   </widget>
-  <widget class="QLabel" name="lb1">
+  <widget class="QLineEdit" name="tb3">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>170</y>
-     <width>47</width>
-     <height>13</height>
+     <x>220</x>
+     <y>190</y>
+     <width>351</width>
+     <height>21</height>
     </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>MS Sans Serif</family>
-     <pointsize>12</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>Name </string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="lb2">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>250</y>
-     <width>121</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>MS Sans Serif</family>
-     <pointsize>12</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>Password</string>
    </property>
   </widget>
   <widget class="QLabel" name="lb3">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>210</y>
+     <x>120</x>
+     <y>190</y>
      <width>81</width>
      <height>20</height>
     </rect>
@@ -100,47 +74,99 @@
   <widget class="QPushButton" name="pb2">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>320</x>
+     <y>340</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: green;</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tb4">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>230</y>
+     <width>351</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb4">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>230</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
      <y>300</y>
      <width>81</width>
      <height>31</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="styleSheet">
-    <string notr="true">color: red;</string>
+    <string notr="true">color: green;</string>
    </property>
    <property name="text">
-    <string>Submit</string>
+    <string>Sign up</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="tb3">
+  <widget class="QLabel" name="lb4_2">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>200</y>
-     <width>351</width>
-     <height>21</height>
+     <x>330</x>
+     <y>280</y>
+     <width>121</width>
+     <height>16</height>
     </rect>
    </property>
-  </widget>
-  <widget class="QLineEdit" name="tb1">
-   <property name="geometry">
-    <rect>
-     <x>220</x>
-     <y>160</y>
-     <width>351</width>
-     <height>21</height>
-    </rect>
+   <property name="font">
+    <font>
+     <family>Garamond</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
    </property>
-  </widget>
-  <widget class="QLineEdit" name="tb2">
-   <property name="geometry">
-    <rect>
-     <x>220</x>
-     <y>240</y>
-     <width>351</width>
-     <height>21</height>
-    </rect>
+   <property name="text">
+    <string>Don't have account ?</string>
    </property>
   </widget>
  </widget>
